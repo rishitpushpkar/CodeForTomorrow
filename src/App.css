@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.newsPage_container {
+  font-family: "Roboto", sans-serif;
+  background-color: #e7eff4;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+
+  & main {
+    padding: 2rem;
+  }
+}
+
+.paginationBox {
+  display: flex;
+  justify-content: center;
+}
+
+.newsPage_container aside {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.profile {
+  display: flex;
+  width: 80%;
+  margin-inline: auto;
+  padding: 1.5rem;
+  margin-block: 2rem;
+  background-color: white;
+  border-radius: 2rem;
+
+  & article {
+    margin-inline: 1rem;
+
+    & h1 {
+      font-size: 1.5rem;
+    }
+    & p {
+      font-size: 1.2rem;
+    }
+  }
+}

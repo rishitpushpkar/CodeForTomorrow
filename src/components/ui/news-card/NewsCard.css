@@ -1,0 +1,65 @@
+.newsCard_container {
+  display: flex;
+  align-items: center;
+}
+
+.newsCard {
+  display: flex;
+  align-items: start;
+  padding: 2rem;
+  height: 10rem;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+  border-radius: 2rem;
+  margin-block: 1rem;
+}
+
+.newsCard figure {
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+  overflow: hidden;
+
+  & img {
+    object-fit: cover;
+  }
+}
+
+.newsCard article {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-inline: 1rem;
+  & > h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  & > p {
+    font-size: 1rem;
+  }
+
+  & > div {
+    color: #b8b8b9;
+    font-weight: 500;
+  }
+}
+
+.deleteCard_Button {
+  border: none;
+  height: 5rem;
+  width: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 1rem;
+
+  & img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
